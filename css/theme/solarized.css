@@ -15,11 +15,12 @@ html * {
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fdf6e3;
+  background-image: url('../../images/background.png');
+  background-repeat: repeat-x;
   background-color: #fdf6e3; }
 
 .reveal {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-size: 36px;
   font-weight: normal;
   color: #657b83; }
@@ -39,7 +40,7 @@ body {
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   margin: 0 0 20px 0;
   color: #586e75;
-  font-family: 'League Gothic', Impact, sans-serif;
+  font-family: 'Avenir', Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;

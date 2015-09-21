@@ -1,1 +1,1 @@
-../slides.md
+../hemingway_was_not_hemingway/notes.md

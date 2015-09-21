@@ -31,8 +31,10 @@
     <![endif]-->
   </head>
   <body>
-    <div class="slides">
-      <section data-markdown="slides.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:" data-charset="iso-8859-15"></section>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="slides.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" data-charset="iso-8859-15"></section>
+      </div>
     </div>
   </div>
   <script src="lib/js/head.min.js"></script>
@@ -41,12 +43,12 @@
     // Full list of configuration options available at:
     // https://github.com/hakimel/reveal.js#configuration
   Reveal.initialize({
-    controls: true,
-    progress: true,
-    history: true,
+    controls: false,
+    progress: false,
+    history: false,
     center: true,
 
-    transition: 'slide', // none/fade/slide/convex/concave/zoom
+    transition: 'fade', // none/fade/slide/convex/concave/zoom
 
     // Optional reveal.js plugins
     dependencies: [
